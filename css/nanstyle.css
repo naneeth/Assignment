@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    background-color: #e3e3e3; 
+    
+ }
+    /* header */
+.logo{float: left;
+    width:80px;
+    height: 80px;
+}
+    
+.head{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    background-color: aqua;
+    text-align: center; 
+    position: fixed;
+}
+h1{
+    padding-top:3px;
+ 
+}￼￼
+/* Navigation bar */
+
+li{
+    float:left;
+}
+
+
+ul
+{ 
+    background-color: brown;
+    padding-top:5px;
+    overflow: hidden;
+    position:fixed;
+    text-align: center;
+    margin-right: 50px;
+    align-items: center; 
+    width:100%  ;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration:none;
+
+
+}
+li a:hover
+{
+    background-color: blueviolet;
+}
+li{
+    float: left;
+}
+
+/*  Parallax image */
+
+.parallax {
+    /* The image used */
+    background-image: url("../school.jpg");
+  
+    /* Full height */ 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 900px;
+  }
+
+ /* main content code  */
+
+
+
+
+.main{
+    display:flex;
+    flex-flow:row wrap;
+    overflow: hidden;
+    margin-top:0;
+    
+    margin-left: 0;
+    float: left;
+    
+    
+   
+}
+.header p{
+   
+    font-family: 'Charm', cursive;
+
+}
+blockquote{
+    font-family: 'Charm', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bod{
+    width:30%;
+    text-align:start;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 18px;
+    float:left;
+}
+.bod ol li{
+clear: both;
+}
+.bod p{
+    text-align: center;
+}
+
+
+/* footer links */
+.foo{
+
+    clear: both; 
+   background-color:rgb(85, 127, 153);
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    height: px ;
+    text-align: center;
+    width: auto;
+    margin-right: 0;
+ }
+
+ .foo ul {
+     position: relative;
+     padding: 0;
+ }
+
+
+    
+
+ ul a:hover{
+     text-decoration-color: brown;
+     text-decoration: rgb(40, 137, 221);
+ }
+
+ @media all and (max-width: 500px) {
+    .main {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }

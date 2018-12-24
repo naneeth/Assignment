@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    background-color: aqua;
+    
+ }
+    /* header */
+.logo{float: left;
+}
+    
+.head{
+    color:rgb(197, 14, 14);
+    background-image: url("../home.jpg");
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    
+    
+    background-repeat: no-repeat;
+
+    text-align: center;
+    height: 200px;
+    margin:0;
+    padding-bottom: 0;
+    width:100%;
+    position:fixed;
+    overflow: hidden;
+    position:fixed;
+    background-color: green;
+    font-size:80px;
+   
+    
+    
+}
+h1{
+    padding-top:3px;
+    
+}
+/* Navigation bar */
+
+nav{
+    background-color: greenyellow;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+ul{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+   
+ul a
+{   margin-left:0;
+    margin-bottom: 0;
+    padding-top:5px;
+    overflow: hidden;
+    text-decoration:none;
+    text-align: center;
+    margin-right: 50px;
+    align-items: center; 
+    
+    
+    
+}
+ .left{
+   
+    padding-left: 10px;
+    padding-right:10px; 
+   
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+    display: inline-block;
+    font-size:30px;
+   
+    
+    overflow: hidden;
+    text-decoration:none;
+    align-self: center; 
+    
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../school.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+ /* main content code  */
+.main{
+    display:flex;
+    flex-flow:row wrap;
+    overflow: hidden;
+    margin-top: 10px;
+    
+    margin-left: 0;
+   
+}
+
+.bod{
+    width:30%;
+    text-align:start;
+    padding: 10px;
+    overflow: hidden;
+    
+    float:right;
+}
+
+
+/* footer links */
+footer{
+    overflow: hidden;
+  
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    margin-left: 0;
+    border: 1px solid black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: blueviolet;
+}
+
+.last{
+    
+    text-decoration:none;
+    float: left;
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+
+   
+}
+.footer{
+    clear:both;
+    border: 1px solid black;
+
+    
+}
+ ul a:hover{
+     text-decoration-color: brown;
+     text-decoration: rgb(40, 137, 221);
+ }
+ .social{
+     display: block;
+     block-size: 76px;
+     
+     float: right;
+ }
+
