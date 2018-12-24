@@ -70,7 +70,7 @@ li{
     background-image: url("../school.jpg");
   
     /* Full height */ 
-  
+    height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -90,12 +90,8 @@ li{
     flex-flow:row wrap;
     overflow: hidden;
     margin-top:0;
-    
     margin-left: 0;
-    float: left;
-    
-    
-   
+    float: left;   
 }
 .header p{
    
@@ -153,3 +149,18 @@ clear: both;
      text-decoration-color: brown;
      text-decoration: rgb(40, 137, 221);
        }
+@media  only screen and (max-width:550px)
+{
+        
+ul li{
+        width: 100%;
+        border: 2px solid black;
+      }
+ul{
+        padding-left: 0;
+    }
+
+}
+.parallax{
+
+}
