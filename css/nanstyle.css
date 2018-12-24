@@ -70,14 +70,14 @@ li{
     background-image: url("../img/school.jpg");
   
     /* Full height */ 
-    height: 100%;
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 900px;
+    min-height: 600px;
   }
 
  /* main content code  */
