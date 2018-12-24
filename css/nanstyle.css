@@ -67,7 +67,7 @@ li{
 
 .parallax {
     /* The image used */
-    background-image: url("../school.jpg");
+    background-image: url("../img/school.jpg");
   
     /* Full height */ 
     height: 100%;
@@ -160,7 +160,9 @@ ul{
         padding-left: 0;
     }
 
-}
-.parallax{
 
+
+	.parallax_img {
+		background-attachment: inherit;
+	}
 }
