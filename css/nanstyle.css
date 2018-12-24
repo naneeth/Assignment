@@ -70,14 +70,14 @@ li{
     background-image: url("../img/school.jpg");
   
     /* Full height */ 
-    
+    height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 600px;
+    min-height: 900px;
   }
 
  /* main content code  */
@@ -131,7 +131,6 @@ clear: both;
     list-style-type: none;
     margin: 0;
     padding: 3px;
-    height: px ;
     text-align: center;
     width: auto;
     margin-right: 0;
@@ -152,17 +151,16 @@ clear: both;
 @media  only screen and (max-width:550px)
 {
         
-ul li{
+ ul li{
         width: 100%;
         border: 2px solid black;
       }
 ul{
         padding-left: 0;
+        margin: 0;
+        padding: 0;
+
     }
 
-
-
-	.parallax_img {
-		background-attachment: inherit;
-	}
 }
+
