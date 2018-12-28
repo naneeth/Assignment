@@ -1,1 +1,1 @@
-This is a Basic School Website with html 
+https://naneeth.github.io/Assignment/
